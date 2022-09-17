@@ -1,2 +1,2 @@
 # OpenXR-HTC-pose-grabber
-Python script allows to grab poses from htc Vive Pro with 
+Python script allows to grab poses from htc Vive Pro using OpenXR specification 
