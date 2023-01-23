@@ -7,17 +7,18 @@ Python script allows grabing poses from HTC VR headsets (consisting of helmet an
 The following script connects to vr equipnment with steamvr and grub pose 3D (helmet, sticks).
 #### Requirements
 ----
-1. Install SteamVR;
-2. Install [pyopenxr](https://github.com/cmbruns/pyopenxr) through pip;
-3. Connect headset to SteamVr and run the script;
-4. Enjoy .json with grabbed poses. <br>
-<br>
-**Additional notes for linux users: before running the following script you need to set up the runtime for VR-device.
-The easiest way - use the same profile that steam-VR are already using. So, assign the variable XR_RUNTIME_JSON to steam-generated
-json will help us: 
-```sh
+- [ ] Install SteamVR;
+- [ ] Install [pyopenxr](https://github.com/cmbruns/pyopenxr) through pip;
+- [ ] Connect headset to SteamVr and run the script;
+- [ ] Enjoy .json with grabbed poses. <br>
+
+> Additional notes for linux users: before running the following script you need to set up the runtime for VR-device.
+> The easiest way - use the same profile that steam-VR are already using. So, assign the variable XR_RUNTIME_JSON to steam-generated
+> json will help us: 
+```
 XR_RUNTIME_JSON=~/.steam/steam/steamapps/common/SteamVR/steamxr_linux64.json
 ```
+
 #### Output format
 ----
 Script produces a .json file with grabbed poses. Each pose consists of:
